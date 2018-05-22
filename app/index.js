@@ -1,6 +1,6 @@
 import './styles/styles.scss';
 
-// import {buttons, result, clearBtn, equalBtn} from './dom-loader';
+import {buttons, result, clearBtn, equalBtn} from './dom-loader';
 
 buttons.forEach((button) => button.addEventListener('click', () => result.value += button.value));
 
