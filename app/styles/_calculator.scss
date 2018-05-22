@@ -1,5 +1,4 @@
-.calculator
-{
+.calculator {
   border: 1px solid #000;
   border-radius: 5px;
   width: 285px;
@@ -8,14 +7,12 @@
   background: #262626;
 }
 
-.logo
-{
+.logo {
   width: 60px;
   margin: 25px 0;
 }
 
-.screen .result
-{
+.screen .result {
   font-size: 30px;
   text-align: right;
   padding: 25px 10px;
@@ -53,8 +50,7 @@
   }
 }
 
-.button:hover, .btn-equal:hover
-{
+.button:hover, .btn-equal:hover {
   opacity: 0.8;
   transition: 0.1s all ease;
 }
